@@ -316,7 +316,7 @@
                         </div><!-- End Recent Sales -->
 
                         <!-- Top Selling -->
-                        <div class="col-12">
+                        {{--<div class="col-12">
                             <div class="card top-selling overflow-auto">
 
                                 <div class="filter">
@@ -398,7 +398,8 @@
                                 </div>
 
                             </div>
-                        </div><!-- End Top Selling -->
+                        </div>--}}
+                        <!-- End Top Selling -->
 
                     </div>
                 </div><!-- End Left side columns -->
@@ -441,7 +442,8 @@
                             </div>
 
                         </div>
-                    </div><!-- End Recent Activity -->
+                    </div>
+                    <!-- End Recent Activity -->
 
                     <!-- Budget Report -->
                     <div class="card">
@@ -598,7 +600,7 @@
                     </div><!-- End Website Traffic -->
 
                     <!-- News & Updates Traffic -->
-                    <div class="card">
+                    {{--<div class="card">
                         <div class="filter">
                             <a class="icon" href="#" data-bs-toggle="dropdown"><i
                                     class="bi bi-three-dots"></i></a>
@@ -651,7 +653,8 @@
                             </div><!-- End sidebar recent posts-->
 
                         </div>
-                    </div><!-- End News & Updates -->
+                    </div>--}}
+                    <!-- End News & Updates -->
 
                 </div><!-- End Right side columns -->
 
