@@ -1,0 +1,33 @@
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 2rem;
+    justify-content: space-between;
+    
+}
+
+.card-holder .card{
+    width: 25%;
+}
+
+.card-holder .card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:1.3rem ;
+}
+
+.bg-primary, .bg-secondary, .bg-info{
+    color: white;
+}
+
+@media(max-width:700px){
+    .card-holder{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-holder .card{
+        width: 100%;
+    }
+}

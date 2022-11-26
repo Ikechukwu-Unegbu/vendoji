@@ -1,0 +1,5 @@
+[29-Oct-2022 20:39:42 America/New_York] PHP Warning:  require(/home/vendwfqp/vendoji.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home/vendwfqp/vendoji.com/artisan on line 18
+[29-Oct-2022 20:39:42 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/vendwfqp/vendoji.com/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/vendwfqp/vendoji.com/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/vendwfqp/vendoji.com/artisan on line 18

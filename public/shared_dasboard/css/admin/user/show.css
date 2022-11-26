@@ -1,0 +1,43 @@
+.card-holder{
+    display: flex;
+    grid-gap: 2rem;
+}
+
+.image-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-holder img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.user-deets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deet{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    grid-gap: 2rem;
+}
+.deet .value{
+    font-weight: bolder;
+}
+
+@media(max-width:700px){
+    .user-deets{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 3rem;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+}
