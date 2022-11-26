@@ -365,7 +365,7 @@
             //  document.body.appendChild(copyText); 
             console.log(copyText.value)
             //return;
-            copyText.select();
+            // copyText.select();
             navigator.clipboard.writeText(copyText.value)
             // var feedbackModal = new bootstrap.Modal(document.getElementById('code_copied'))
             //         feedbackModal.show()
