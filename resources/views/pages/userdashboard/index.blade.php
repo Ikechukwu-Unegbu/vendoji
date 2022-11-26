@@ -356,17 +356,11 @@
         let ref_link_holder = document.getElementById('ref_holder')
         ref_link_holder.value = ref_link;
 
-        console.log('We are here')
-
 
         function copyRef(){
             
-            let copyText = document.getElementById('ref_holder')
-            //  document.body.appendChild(copyText); 
-            console.log(copyText.value)
-            //return;
-            // copyText.select();
-            navigator.clipboard.writeText(copyText.value)
+            let copyText = document.getElementById('ref_holder');
+            navigator.clipboard.writeText(copyText.value);
             // var feedbackModal = new bootstrap.Modal(document.getElementById('code_copied'))
             //         feedbackModal.show()
         }

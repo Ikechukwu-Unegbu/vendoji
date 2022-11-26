@@ -44,10 +44,10 @@
         Vendoji technology is a leading provider of decentralized finance services like secured stable coin savings. We also provide crypto literacy and consultancy services.
         </p>
         <div class="social-links mt-3">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://twitter.com/Vendoji1" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.facebook.com/groups/1547301459121307/?ref=share" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://t.me/+74ubZVlEnjM5YmM0" class="instagram"><i class="bi bi-telegram"></i></a>
+          <a href="https://www.linkedin.com/groups/12515903" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
 
