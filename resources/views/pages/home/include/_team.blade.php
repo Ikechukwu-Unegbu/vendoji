@@ -13,7 +13,7 @@
     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
       <div class="member">
         <div class="member-img">
-          <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+          <img src="{{asset('public/imgs/ozioko.jpeg')}}" class="img-fluid" alt="">
           <div class="social">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -22,9 +22,11 @@
           </div>
         </div>
         <div class="member-info">
-          <h4>Walter White</h4>
+          <h4>Ozioko Chibuogu</h4>
           <span>Chief Executive Officer</span>
-          <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+          <p>
+          Chibuogu - Former Theoretical Physicist who has leveraged his solid mathematical background to transition into Financial market analysis with a focus on Cryptocurrency and other crypto based digital products. His mission is to drive the adoption of crypto by everyday people. He's a successful entrepreneur in the crypto industry that has created a self-sustaining path to crypto adoption.
+          </p>
         </div>
       </div>
     </div>
