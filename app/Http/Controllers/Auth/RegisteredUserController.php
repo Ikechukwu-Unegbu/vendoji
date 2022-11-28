@@ -101,10 +101,10 @@ class RegisteredUserController extends Controller
 
 
         try {
-            // $admins = User::where('access', 'admin')->get();
-            // Notification::sendNow($admins, new NewUserNotifyAdmin($user));
-            //send user email
-            // Notification::sendNow($user, new Welcome($user));
+            $admins = User::where('access', 'admin')->get();
+            Notification::sendNow($admins, new NewUserNotifyAdmin($user));
+            // send user email
+            Notification::sendNow($user, new Welcome($user));
             //handle ref
             if($request->ref != null){
                 $newuser = User::where('email', $request->email)->first();
