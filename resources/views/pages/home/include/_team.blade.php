@@ -1,4 +1,19 @@
 <!-- ======= Team Section ======= -->
+<style>
+  .row{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+  }
+
+  @media(max-width:600px){
+    .row{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+  } 
+  }
+</style>
 <section id="team" class="team">
 
 <div class="container" data-aos="fade-up">
@@ -13,7 +28,7 @@
     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
       <div class="member">
         <div class="member-img">
-          <img src="{{asset('public/imgs/ozioko.jpeg')}}" class="img-fluid" alt="">
+          <img src="{{asset('imgs/ozioko.jpeg')}}" class="img-fluid" alt="">
           <div class="social">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -34,7 +49,7 @@
     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
       <div class="member">
         <div class="member-img">
-          <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+          <img src="{{asset('imgs/partner.jpeg')}}" class="img-fluid" alt="">
           <div class="social">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -49,7 +64,7 @@
         </div>
       </div>
     </div>
-
+<!-- 
     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
       <div class="member">
         <div class="member-img">
@@ -86,7 +101,7 @@
           <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 

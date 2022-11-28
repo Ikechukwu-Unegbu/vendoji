@@ -1,5 +1,5 @@
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials">
+  {{--<section id="testimonials" class="testimonials">
 
 <div class="container" data-aos="fade-up">
 
@@ -99,3 +99,4 @@
 
 </section><!-- End Testimonials Section -->
 
+--}}
